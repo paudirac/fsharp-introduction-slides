@@ -472,8 +472,6 @@
 </tr>
 </table>
 
-<p><a href="http://pvconfigs.greenpowermonitor.com">Demo</a></p>
-
 </section>
 
 <section >
@@ -932,8 +930,8 @@
 
 <h3>Implementation</h3>
 
-<p>From an implementation point, the solution materializes in a SPA application <a href="http://protocolseditor.greenpowermonitor.com">ProtocolsEditor</a>
-that actually is a thin layer of a WebAPI <a href="http://protocolseditor.greenpowermonitor.com/swagger">ProtocolsEditor API</a>.</p>
+<p>From an implementation point, the solution materializes in a SPA application
+that actually is a thin layer of a WebAPI.</p>
 
 </section>
 
@@ -1081,14 +1079,14 @@ that actually is a thin layer of a WebAPI <a href="http://protocolseditor.greenp
 <span class="l">27: </span>
 <span class="l">28: </span>
 </pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="k">namespace</span> <span class="i">GPM</span><span class="o">.</span><span class="i">Definitions</span><span class="o">.</span><span class="i">Common</span><span class="o">.</span><span class="i">Domain</span>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="k">namespace</span> <span class="i">Definitions</span><span class="o">.</span><span class="i">Common</span><span class="o">.</span><span class="i">Domain</span>
 {
     <span onmouseout="hideTip(event, 'fs36', 97)" onmouseover="showTip(event, 'fs36', 97)" class="i">using</span> <span onmouseout="hideTip(event, 'fs32', 98)" onmouseover="showTip(event, 'fs32', 98)" class="i">System</span>;
     <span onmouseout="hideTip(event, 'fs36', 99)" onmouseover="showTip(event, 'fs36', 99)" class="i">using</span> <span onmouseout="hideTip(event, 'fs32', 100)" onmouseover="showTip(event, 'fs32', 100)" class="i">System</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs37', 101)" onmouseover="showTip(event, 'fs37', 101)" class="i">Collections</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs38', 102)" onmouseover="showTip(event, 'fs38', 102)" class="i">Generic</span>;
     <span onmouseout="hideTip(event, 'fs36', 103)" onmouseover="showTip(event, 'fs36', 103)" class="i">using</span> <span onmouseout="hideTip(event, 'fs32', 104)" onmouseover="showTip(event, 'fs32', 104)" class="i">System</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs33', 105)" onmouseover="showTip(event, 'fs33', 105)" class="i">Xml</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs34', 106)" onmouseover="showTip(event, 'fs34', 106)" class="i">Serialization</span>;
 
     [<span class="i">Serializable</span>]
-    [<span class="i">XmlRoot</span>(<span class="i">Namespace</span> <span class="o">=</span> <span class="s">&quot;www.greenpowermonitor.com/protocols&quot;</span>)]
+    [<span class="i">XmlRoot</span>(<span class="i">Namespace</span> <span class="o">=</span> <span class="s">&quot;www.foobar.com/protocols&quot;</span>)]
     <span class="k">public</span> <span class="i">sealed</span> <span class="k">class</span> <span class="i">ProtocolInformation</span>
     {
         <span class="k">public</span> <span class="i">ProtocolInformation</span>()
